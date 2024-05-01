@@ -7,15 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C1743442B78F46F004EBB71 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 1C1743432B78F46F004EBB71 /* DGCharts */; };
+		1C3742D92B457F4D00F690E1 /* Education_Game_CW_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3742D82B457F4D00F690E1 /* Education_Game_CW_Tests.swift */; };
+		1C3742E02B45802F00F690E1 /* LevelViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3742DF2B45802F00F690E1 /* LevelViewControllerTests.swift */; };
+		1C7F1BCA2B6A755900BAA36B /* SPConfetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F1BB92B6A755900BAA36B /* SPConfetti.swift */; };
+		1C7F1BCB2B6A755900BAA36B /* SPConfettiDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F1BBA2B6A755900BAA36B /* SPConfettiDelegate.swift */; };
+		1C7F1BCC2B6A755900BAA36B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7F1BBC2B6A755900BAA36B /* Assets.xcassets */; };
+		1C7F1BCD2B6A755900BAA36B /* SPConfettiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F1BBE2B6A755900BAA36B /* SPConfettiConfiguration.swift */; };
+		1C7F1BCE2B6A755900BAA36B /* SPConfettiParticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F1BBF2B6A755900BAA36B /* SPConfettiParticle.swift */; };
+		1C7F1BCF2B6A755900BAA36B /* SPConfettiAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F1BC02B6A755900BAA36B /* SPConfettiAnimation.swift */; };
+		1C7F1BD02B6A755900BAA36B /* SPConfettiParticlesConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F1BC12B6A755900BAA36B /* SPConfettiParticlesConfig.swift */; };
+		1C7F1BD12B6A755900BAA36B /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F1BC32B6A755900BAA36B /* Delay.swift */; };
+		1C7F1BD22B6A755900BAA36B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F1BC42B6A755900BAA36B /* UIImageExtension.swift */; };
+		1C7F1BD32B6A755900BAA36B /* SPConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F1BC52B6A755900BAA36B /* SPConfettiView.swift */; };
+		1C7F1BD42B6A755900BAA36B /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F1BC72B6A755900BAA36B /* Images.swift */; };
+		1C7F1BD52B6A755900BAA36B /* SPConfettiModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F1BC92B6A755900BAA36B /* SPConfettiModifier.swift */; };
+		1C819CAA2BAEE87D00C95CE2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C819CA92BAEE87D00C95CE2 /* LoginViewController.swift */; };
+		1C819CAC2BAEE8A400C95CE2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C819CAB2BAEE8A400C95CE2 /* LoginView.swift */; };
+		1C8BB6B62B6FA8DC00BC3493 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BB6B52B6FA8DC00BC3493 /* SettingsViewController.swift */; };
+		1C8BB6B82B6FACFE00BC3493 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BB6B72B6FACFE00BC3493 /* SettingsView.swift */; };
+		1C9B00A22BB97F02005DD6E9 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B00A12BB97F02005DD6E9 /* StatisticsViewController.swift */; };
+		1C9B00A42BB97F52005DD6E9 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B00A32BB97F52005DD6E9 /* StatisticsView.swift */; };
+		1C9B00A62BB986D5005DD6E9 /* SmallStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B00A52BB986D5005DD6E9 /* SmallStatisticsView.swift */; };
 		1CAF07332B2718F700CDA546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF07322B2718F700CDA546 /* AppDelegate.swift */; };
 		1CAF07352B2718F700CDA546 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF07342B2718F700CDA546 /* SceneDelegate.swift */; };
 		1CAF07372B2718F700CDA546 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF07362B2718F700CDA546 /* ViewController.swift */; };
 		1CAF073A2B2718F700CDA546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF07382B2718F700CDA546 /* Main.storyboard */; };
 		1CAF073C2B2718F900CDA546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF073B2B2718F900CDA546 /* Assets.xcassets */; };
 		1CAF073F2B2718F900CDA546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF073D2B2718F900CDA546 /* LaunchScreen.storyboard */; };
+		1CAF07472B2719EC00CDA546 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF07462B2719EC00CDA546 /* MenuViewController.swift */; };
+		1CAF07492B271B3200CDA546 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF07482B271B3200CDA546 /* MenuView.swift */; };
+		1CAF074B2B271E5C00CDA546 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF074A2B271E5C00CDA546 /* Attribute.swift */; };
+		1CAF074D2B271E6A00CDA546 /* FontKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF074C2B271E6A00CDA546 /* FontKit.swift */; };
+		1CAF07502B2727AE00CDA546 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF074F2B2727AE00CDA546 /* LevelViewController.swift */; };
+		1CAF07532B272C1D00CDA546 /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF07522B272C1D00CDA546 /* LevelView.swift */; };
+		1CAF07552B273B1900CDA546 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF07542B273B1900CDA546 /* GameOverViewController.swift */; };
+		1CAF07572B273C0900CDA546 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF07562B273C0900CDA546 /* GameOverView.swift */; };
+		1CE0B7702BB18C8900421956 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 1CE0B76F2BB18C8900421956 /* FirebaseDatabase */; };
+		1CE0B7742BB18EC600421956 /* FirebaseDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE0B7732BB18EC600421956 /* FirebaseDatabase.swift */; };
+		1CE0B7782BB199C200421956 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CE0B7772BB199C200421956 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1C3742DA2B457F4D00F690E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CAF07272B2718F700CDA546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CAF072E2B2718F700CDA546;
+			remoteInfo = "Education Game CW";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1C5AA8F02B78F34900241501 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1C3742D62B457F4D00F690E1 /* Education Game CW Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Education Game CW Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3742D82B457F4D00F690E1 /* Education_Game_CW_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education_Game_CW_Tests.swift; sourceTree = "<group>"; };
+		1C3742DF2B45802F00F690E1 /* LevelViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewControllerTests.swift; sourceTree = "<group>"; };
+		1C7F1BB92B6A755900BAA36B /* SPConfetti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPConfetti.swift; sourceTree = "<group>"; };
+		1C7F1BBA2B6A755900BAA36B /* SPConfettiDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPConfettiDelegate.swift; sourceTree = "<group>"; };
+		1C7F1BBC2B6A755900BAA36B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C7F1BBE2B6A755900BAA36B /* SPConfettiConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPConfettiConfiguration.swift; sourceTree = "<group>"; };
+		1C7F1BBF2B6A755900BAA36B /* SPConfettiParticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPConfettiParticle.swift; sourceTree = "<group>"; };
+		1C7F1BC02B6A755900BAA36B /* SPConfettiAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPConfettiAnimation.swift; sourceTree = "<group>"; };
+		1C7F1BC12B6A755900BAA36B /* SPConfettiParticlesConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPConfettiParticlesConfig.swift; sourceTree = "<group>"; };
+		1C7F1BC32B6A755900BAA36B /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		1C7F1BC42B6A755900BAA36B /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		1C7F1BC52B6A755900BAA36B /* SPConfettiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPConfettiView.swift; sourceTree = "<group>"; };
+		1C7F1BC72B6A755900BAA36B /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		1C7F1BC92B6A755900BAA36B /* SPConfettiModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPConfettiModifier.swift; sourceTree = "<group>"; };
+		1C819CA92BAEE87D00C95CE2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1C819CAB2BAEE8A400C95CE2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1C8BB6B52B6FA8DC00BC3493 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1C8BB6B72B6FACFE00BC3493 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1C9B00A12BB97F02005DD6E9 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		1C9B00A32BB97F52005DD6E9 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		1C9B00A52BB986D5005DD6E9 /* SmallStatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallStatisticsView.swift; sourceTree = "<group>"; };
 		1CAF072F2B2718F700CDA546 /* Education Game CW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Education Game CW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CAF07322B2718F700CDA546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CAF07342B2718F700CDA546 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,24 +102,148 @@
 		1CAF073B2B2718F900CDA546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CAF073E2B2718F900CDA546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CAF07402B2718F900CDA546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAF07462B2719EC00CDA546 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		1CAF07482B271B3200CDA546 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		1CAF074A2B271E5C00CDA546 /* Attribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
+		1CAF074C2B271E6A00CDA546 /* FontKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontKit.swift; sourceTree = "<group>"; };
+		1CAF074F2B2727AE00CDA546 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		1CAF07522B272C1D00CDA546 /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		1CAF07542B273B1900CDA546 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		1CAF07562B273C0900CDA546 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		1CE0B7732BB18EC600421956 /* FirebaseDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDatabase.swift; sourceTree = "<group>"; };
+		1CE0B7772BB199C200421956 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CAF072C2B2718F700CDA546 /* Frameworks */ = {
+		1C3742D32B457F4D00F690E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1CAF072C2B2718F700CDA546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE0B7702BB18C8900421956 /* FirebaseDatabase in Frameworks */,
+				1C1743442B78F46F004EBB71 /* DGCharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C3742D72B457F4D00F690E1 /* Education Game CW Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1C3742D82B457F4D00F690E1 /* Education_Game_CW_Tests.swift */,
+				1C3742DF2B45802F00F690E1 /* LevelViewControllerTests.swift */,
+			);
+			path = "Education Game CW Tests";
+			sourceTree = "<group>";
+		};
+		1C5AA8F12B78F35D00241501 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C7F1BB82B6A755900BAA36B /* SPConfetti */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F1BB92B6A755900BAA36B /* SPConfetti.swift */,
+				1C7F1BBA2B6A755900BAA36B /* SPConfettiDelegate.swift */,
+				1C7F1BBB2B6A755900BAA36B /* Resources */,
+				1C7F1BBD2B6A755900BAA36B /* Models */,
+				1C7F1BC22B6A755900BAA36B /* Extensions */,
+				1C7F1BC52B6A755900BAA36B /* SPConfettiView.swift */,
+				1C7F1BC62B6A755900BAA36B /* Services */,
+				1C7F1BC82B6A755900BAA36B /* SwiftUI */,
+			);
+			path = SPConfetti;
+			sourceTree = "<group>";
+		};
+		1C7F1BBB2B6A755900BAA36B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F1BBC2B6A755900BAA36B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1C7F1BBD2B6A755900BAA36B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F1BBE2B6A755900BAA36B /* SPConfettiConfiguration.swift */,
+				1C7F1BBF2B6A755900BAA36B /* SPConfettiParticle.swift */,
+				1C7F1BC02B6A755900BAA36B /* SPConfettiAnimation.swift */,
+				1C7F1BC12B6A755900BAA36B /* SPConfettiParticlesConfig.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C7F1BC22B6A755900BAA36B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F1BC32B6A755900BAA36B /* Delay.swift */,
+				1C7F1BC42B6A755900BAA36B /* UIImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1C7F1BC62B6A755900BAA36B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F1BC72B6A755900BAA36B /* Images.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1C7F1BC82B6A755900BAA36B /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F1BC92B6A755900BAA36B /* SPConfettiModifier.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		1C8BB6B92B6FAD2800BC3493 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C8BB6B72B6FACFE00BC3493 /* SettingsView.swift */,
+				1CAF07482B271B3200CDA546 /* MenuView.swift */,
+				1CAF07522B272C1D00CDA546 /* LevelView.swift */,
+				1CAF07562B273C0900CDA546 /* GameOverView.swift */,
+				1C819CAB2BAEE8A400C95CE2 /* LoginView.swift */,
+				1C9B00A32BB97F52005DD6E9 /* StatisticsView.swift */,
+				1C9B00A52BB986D5005DD6E9 /* SmallStatisticsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C8BB6BA2B6FAD3E00BC3493 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF07362B2718F700CDA546 /* ViewController.swift */,
+				1C8BB6B52B6FA8DC00BC3493 /* SettingsViewController.swift */,
+				1CAF07462B2719EC00CDA546 /* MenuViewController.swift */,
+				1CAF074F2B2727AE00CDA546 /* LevelViewController.swift */,
+				1CAF07542B273B1900CDA546 /* GameOverViewController.swift */,
+				1C819CA92BAEE87D00C95CE2 /* LoginViewController.swift */,
+				1C9B00A12BB97F02005DD6E9 /* StatisticsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		1CAF07262B2718F700CDA546 = {
 			isa = PBXGroup;
 			children = (
 				1CAF07312B2718F700CDA546 /* Education Game CW */,
+				1C3742D72B457F4D00F690E1 /* Education Game CW Tests */,
 				1CAF07302B2718F700CDA546 /* Products */,
+				1C5AA8F12B78F35D00241501 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				1CAF072F2B2718F700CDA546 /* Education Game CW.app */,
+				1C3742D62B457F4D00F690E1 /* Education Game CW Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,11 +261,17 @@
 			children = (
 				1CAF07322B2718F700CDA546 /* AppDelegate.swift */,
 				1CAF07342B2718F700CDA546 /* SceneDelegate.swift */,
-				1CAF07362B2718F700CDA546 /* ViewController.swift */,
+				1CE0B7732BB18EC600421956 /* FirebaseDatabase.swift */,
+				1C8BB6BA2B6FAD3E00BC3493 /* View Controllers */,
+				1C8BB6B92B6FAD2800BC3493 /* Views */,
+				1CAF074C2B271E6A00CDA546 /* FontKit.swift */,
+				1CAF074A2B271E5C00CDA546 /* Attribute.swift */,
 				1CAF07382B2718F700CDA546 /* Main.storyboard */,
 				1CAF073B2B2718F900CDA546 /* Assets.xcassets */,
 				1CAF073D2B2718F900CDA546 /* LaunchScreen.storyboard */,
+				1CE0B7772BB199C200421956 /* GoogleService-Info.plist */,
 				1CAF07402B2718F900CDA546 /* Info.plist */,
+				1C7F1BB82B6A755900BAA36B /* SPConfetti */,
 			);
 			path = "Education Game CW";
 			sourceTree = "<group>";
@@ -70,6 +279,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1C3742D52B457F4D00F690E1 /* Education Game CW Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3742DE2B457F4D00F690E1 /* Build configuration list for PBXNativeTarget "Education Game CW Tests" */;
+			buildPhases = (
+				1C3742D22B457F4D00F690E1 /* Sources */,
+				1C3742D32B457F4D00F690E1 /* Frameworks */,
+				1C3742D42B457F4D00F690E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C3742DB2B457F4D00F690E1 /* PBXTargetDependency */,
+			);
+			name = "Education Game CW Tests";
+			productName = "Education Game CW Tests";
+			productReference = 1C3742D62B457F4D00F690E1 /* Education Game CW Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		1CAF072E2B2718F700CDA546 /* Education Game CW */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CAF07432B2718F900CDA546 /* Build configuration list for PBXNativeTarget "Education Game CW" */;
@@ -77,12 +304,17 @@
 				1CAF072B2B2718F700CDA546 /* Sources */,
 				1CAF072C2B2718F700CDA546 /* Frameworks */,
 				1CAF072D2B2718F700CDA546 /* Resources */,
+				1C5AA8F02B78F34900241501 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Education Game CW";
+			packageProductDependencies = (
+				1C1743432B78F46F004EBB71 /* DGCharts */,
+				1CE0B76F2BB18C8900421956 /* FirebaseDatabase */,
+			);
 			productName = "Education Game CW";
 			productReference = 1CAF072F2B2718F700CDA546 /* Education Game CW.app */;
 			productType = "com.apple.product-type.application";
@@ -97,6 +329,10 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					1C3742D52B457F4D00F690E1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1CAF072E2B2718F700CDA546;
+					};
 					1CAF072E2B2718F700CDA546 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -111,22 +347,36 @@
 				Base,
 			);
 			mainGroup = 1CAF07262B2718F700CDA546;
+			packageReferences = (
+				1C1743422B78F462004EBB71 /* XCRemoteSwiftPackageReference "Charts" */,
+				1CE0B76E2BB18C8900421956 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 1CAF07302B2718F700CDA546 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1CAF072E2B2718F700CDA546 /* Education Game CW */,
+				1C3742D52B457F4D00F690E1 /* Education Game CW Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1C3742D42B457F4D00F690E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1CAF072D2B2718F700CDA546 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1CAF073F2B2718F900CDA546 /* LaunchScreen.storyboard in Resources */,
 				1CAF073C2B2718F900CDA546 /* Assets.xcassets in Resources */,
+				1CE0B7782BB199C200421956 /* GoogleService-Info.plist in Resources */,
+				1C7F1BCC2B6A755900BAA36B /* Assets.xcassets in Resources */,
 				1CAF073A2B2718F700CDA546 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,17 +384,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1C3742D22B457F4D00F690E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3742D92B457F4D00F690E1 /* Education_Game_CW_Tests.swift in Sources */,
+				1C3742E02B45802F00F690E1 /* LevelViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1CAF072B2B2718F700CDA546 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CAF074B2B271E5C00CDA546 /* Attribute.swift in Sources */,
+				1CAF07572B273C0900CDA546 /* GameOverView.swift in Sources */,
+				1C7F1BD02B6A755900BAA36B /* SPConfettiParticlesConfig.swift in Sources */,
+				1CAF07492B271B3200CDA546 /* MenuView.swift in Sources */,
+				1C7F1BCF2B6A755900BAA36B /* SPConfettiAnimation.swift in Sources */,
+				1CAF074D2B271E6A00CDA546 /* FontKit.swift in Sources */,
+				1C9B00A42BB97F52005DD6E9 /* StatisticsView.swift in Sources */,
+				1CAF07502B2727AE00CDA546 /* LevelViewController.swift in Sources */,
+				1C7F1BD42B6A755900BAA36B /* Images.swift in Sources */,
+				1CE0B7742BB18EC600421956 /* FirebaseDatabase.swift in Sources */,
+				1CAF07552B273B1900CDA546 /* GameOverViewController.swift in Sources */,
+				1C8BB6B82B6FACFE00BC3493 /* SettingsView.swift in Sources */,
+				1C819CAC2BAEE8A400C95CE2 /* LoginView.swift in Sources */,
+				1CAF07532B272C1D00CDA546 /* LevelView.swift in Sources */,
+				1C7F1BD32B6A755900BAA36B /* SPConfettiView.swift in Sources */,
 				1CAF07372B2718F700CDA546 /* ViewController.swift in Sources */,
+				1C819CAA2BAEE87D00C95CE2 /* LoginViewController.swift in Sources */,
 				1CAF07332B2718F700CDA546 /* AppDelegate.swift in Sources */,
 				1CAF07352B2718F700CDA546 /* SceneDelegate.swift in Sources */,
+				1C7F1BCA2B6A755900BAA36B /* SPConfetti.swift in Sources */,
+				1C8BB6B62B6FA8DC00BC3493 /* SettingsViewController.swift in Sources */,
+				1C7F1BD22B6A755900BAA36B /* UIImageExtension.swift in Sources */,
+				1C7F1BCD2B6A755900BAA36B /* SPConfettiConfiguration.swift in Sources */,
+				1C7F1BCE2B6A755900BAA36B /* SPConfettiParticle.swift in Sources */,
+				1C7F1BD12B6A755900BAA36B /* Delay.swift in Sources */,
+				1C7F1BD52B6A755900BAA36B /* SPConfettiModifier.swift in Sources */,
+				1CAF07472B2719EC00CDA546 /* MenuViewController.swift in Sources */,
+				1C9B00A62BB986D5005DD6E9 /* SmallStatisticsView.swift in Sources */,
+				1C7F1BCB2B6A755900BAA36B /* SPConfettiDelegate.swift in Sources */,
+				1C9B00A22BB97F02005DD6E9 /* StatisticsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C3742DB2B457F4D00F690E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CAF072E2B2718F700CDA546 /* Education Game CW */;
+			targetProxy = 1C3742DA2B457F4D00F690E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1CAF07382B2718F700CDA546 /* Main.storyboard */ = {
@@ -166,6 +460,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1C3742DC2B457F4D00F690E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZQF6A3V26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rihab.Education-Game-CW-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Education Game CW.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Education Game CW";
+			};
+			name = Debug;
+		};
+		1C3742DD2B457F4D00F690E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZQF6A3V26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rihab.Education-Game-CW-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Education Game CW.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Education Game CW";
+			};
+			name = Release;
+		};
 		1CAF07412B2718F900CDA546 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -223,6 +553,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -279,6 +610,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -295,11 +627,13 @@
 				DEVELOPMENT_TEAM = 3ZQF6A3V26;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Education Game CW/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Mathy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +641,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "rihab.Education-Game-CW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,11 +660,13 @@
 				DEVELOPMENT_TEAM = 3ZQF6A3V26;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Education Game CW/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Mathy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,6 +674,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "rihab.Education-Game-CW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,6 +686,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1C3742DE2B457F4D00F690E1 /* Build configuration list for PBXNativeTarget "Education Game CW Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3742DC2B457F4D00F690E1 /* Debug */,
+				1C3742DD2B457F4D00F690E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1CAF072A2B2718F700CDA546 /* Build configuration list for PBXProject "Education Game CW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -363,6 +714,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C1743422B78F462004EBB71 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		1CE0B76E2BB18C8900421956 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.23.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C1743432B78F46F004EBB71 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C1743422B78F462004EBB71 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		1CE0B76F2BB18C8900421956 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1CE0B76E2BB18C8900421956 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1CAF07272B2718F700CDA546 /* Project object */;
 }

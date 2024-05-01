@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>The app uses speech to decide on an answer for maths questions</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>The app uses speech to decide on an answer for maths questions</string>
+	<key>NSCameraUsageDescription</key>
+	<string>The app uses the camera to track head direction to decide on an answer for maths questions</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
